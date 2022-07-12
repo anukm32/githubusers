@@ -6,8 +6,9 @@ import { useContext } from 'react';
 
 const Info = () => {
   const data=React.useContext(GithubContex)
+  console.log(data)
   return (
-    <div>Info{data}</div>
+    <div>Info</div>
   )
 }
 
